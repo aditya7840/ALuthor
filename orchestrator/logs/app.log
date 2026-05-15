@@ -1,0 +1,17 @@
+2026-05-14 19:15:32,104 | orchestrator | INFO | Starting pipeline
+2026-05-14 19:15:32,104 | planner | INFO | Planner attempt 1
+2026-05-14 19:15:32,666 | httpx | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 19:15:32,706 | writer | INFO | Writing chapter: Understanding Your Money Mindset
+2026-05-14 19:15:35,203 | httpx | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 19:15:36,430 | httpx | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 19:15:38,273 | httpx | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 19:15:38,276 | writer | INFO | Writing chapter: Building a Budget That Works for You
+2026-05-14 19:15:39,912 | httpx | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 19:15:39,935 | httpx | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 19:15:39,935 | groq._base_client | INFO | Retrying request to /openai/v1/chat/completions in 14.000000 seconds
+2026-05-14 19:15:55,389 | httpx | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 19:15:55,406 | httpx | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 19:15:55,406 | groq._base_client | INFO | Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2026-05-14 19:16:09,500 | httpx | INFO | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-14 19:16:09,532 | formatter | INFO | PDF generated: book_1778766369.pdf
+2026-05-14 19:16:09,532 | orchestrator | INFO | Pipeline completed successfully
