@@ -30,12 +30,12 @@ def create_pdf(book):
     story.append(Spacer(1, 10))
     story.append(Paragraph(f"Author: {tp['author']}", styles["Normal"]))
     story.append(Paragraph(tp["edition"], styles["Normal"]))
-    story.append(PageBreak())
+    story.append(Spacer(1, 10))
 
     # Copyright
     story.append(Paragraph("Copyright", styles["Heading2"]))
     story.append(Paragraph(tp["copyright"], styles["Normal"]))
-    story.append(PageBreak())
+    story.append(Spacer(1, 10))
 
     # Dedication
     story.append(Paragraph("Dedication", styles["Heading2"]))
@@ -58,13 +58,13 @@ def create_pdf(book):
     # Afterword
     story.append(Paragraph("Afterword", styles["Heading2"]))
     story.append(Paragraph(back["afterword"], styles["Normal"]))
-    story.append(PageBreak())
+    story.append(Spacer(1, 10))
 
     # References
     story.append(Paragraph("References", styles["Heading2"]))
     for r in back["references"]:
         story.append(Paragraph(f"- {r}", styles["Normal"]))
-    story.append(PageBreak())
+    story.append(Spacer(1, 10))
 
     # About Author
     story.append(Paragraph("About the Author", styles["Heading2"]))
