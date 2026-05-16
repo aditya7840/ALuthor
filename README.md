@@ -113,3 +113,7 @@ reportlab
 groq
 
 python-dotenv
+
+TO RUN
+
+python orchestrator.py
